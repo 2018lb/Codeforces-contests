@@ -1,0 +1,3 @@
+D:\CLion-2020.3.2.win\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\Round726.dir/objects.a
+D:\mingw64\bin\ar.exe cr CMakeFiles\Round726.dir/objects.a @CMakeFiles\Round726.dir\objects1.rsp
+D:\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Round726.dir/objects.a -Wl,--no-whole-archive  -o Round726.exe -Wl,--out-implib,libRound726.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Round726.dir\linklibs.rsp
